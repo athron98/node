@@ -1,0 +1,38 @@
+{
+   "name": "athron98/node",
+   "description": "A Node System.",
+   "license": "MIT",
+   "type": "library",
+   "keywords": [
+      "node"
+   ],
+   "authors": [
+      {
+         "name": "Gilang Albathin Nurhabibi",
+         "email": "athron.poster@gmail.com"
+      }
+   ],
+   "require": {
+      "php": ">=5.4.0"
+   },
+   "autoload": {
+      "psr-4": {
+         "Athron98\\Node\\": "src/"
+      }
+   },
+   "minimum-stability": "dev",
+   "prefer-stable": true,
+   "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Athron98\\Node\\NodeServiceProvider"
+            ],
+            "aliases": {
+                "Node": "Athron98\\Node\\Facades\\Node"
+            }
+        }
+    }
+}
