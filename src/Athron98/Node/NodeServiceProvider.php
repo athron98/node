@@ -18,7 +18,7 @@ class NodeServiceProvider extends ServiceProvider
         });
         $this->app->booting(function () {
             $loader = AliasLoader::getInstance();
-            $loader->alias('Node', 'Athron98\Node\Facades\Node');
+            $loader->alias('Node', 'Athron98\Node\Node');
         });
     }
     public function provides()
