@@ -1,6 +1,6 @@
 {
    "name": "athron98/node",
-   "description": "A Node System.",
+   "description": "Athron98's Integrated Node System for Laravel",
    "license": "MIT",
    "type": "library",
    "keywords": [
